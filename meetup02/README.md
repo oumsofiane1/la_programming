@@ -1,5 +1,7 @@
 **Meetup02 Array-Based Lists**
 
+***This list of exercises is taken from the book Open Data Structure can be downloaded here: http://opendatastructures.org/ods-cpp.pdf***
+
 *Brodnik et al. seem to have been the first to describe the Rootish ArrayStack
 and prove a √n lower-bound like that in Section 2.6.2. They
 also present a different structure that uses a more sophisticated choice
