@@ -7,9 +7,9 @@ of block sizes in order to avoid computing square roots in the i2b(i)
 method. Within their scheme, the block containing i is block blog(i+ 1)c,
 which is simply the index of the leading 1 bit in the binary representation 
 of i+ 1. Some computer architectures provide an instruction for computing
-the index of the leading 1-bit in an integer.
+the index of the leading 1-bit in an integer.*
 
-A structure related to the RootishArrayStack is the two-level tieredvector
+*A structure related to the RootishArrayStack is the two-level tieredvector
 of Goodrich and Kloss. This structure supports the get(i,x)
 and set(i,x) operations in constant time and add(i,x) and remove(i) in
 O(√n) time. These running times are similar to what can be achieved with
