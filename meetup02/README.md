@@ -1,4 +1,6 @@
-Brodnik et al. seem to have been the first to describe the Rootish ArrayStack
+**Meetup02 Array-Based Lists**
+
+*Brodnik et al. seem to have been the first to describe the Rootish ArrayStack
 and prove a √n lower-bound like that in Section 2.6.2. They
 also present a different structure that uses a more sophisticated choice
 of block sizes in order to avoid computing square roots in the i2b(i)
@@ -11,12 +13,13 @@ A structure related to the RootishArrayStack is the two-level tieredvector
 of Goodrich and Kloss. This structure supports the get(i,x)
 and set(i,x) operations in constant time and add(i,x) and remove(i) in
 O(√n) time. These running times are similar to what can be achieved with
-the more careful implementation of a RootishArrayStack discussed in
+the more careful implementation of a RootishArrayStack discussed in constant
+time per operation*
 
 Exercise 2.1. 
 The List method addAll(i,c) inserts all elements of the
 Collection c into the list at position i. (The add(i,x) method is a special
-case where c = {x}.) Explain why, for the data structures in this chapter,
+case where c = {x}.) Explain why, for the data structures (Array-Based Lists),
 it is not efficient to implement addAll(i,c) by repeated calls to add(i,x).
 Design and implement a more efficient implementation.
 
